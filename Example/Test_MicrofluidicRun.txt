@@ -1,0 +1,450 @@
+% M04S Microfluidic plate
+% Script generated using MATLAB by Luca Gerosa (Sorger Lab, HMS)
+% Protocol title: 'Example of a microfluidic run'
+% Generated on date: 12-May-2016
+
+% START PROTOCOL
+
+% Symmetic switch of V2,V5 to 1.0 psi for 30.0 mins
+setflow X 0.500000
+setflow Y 0.500000
+open V2
+open V5
+wait 30.000000
+close V2
+close V5
+
+% Symmetic switch of V3,V4 to 1.0 psi for 5.0 mins
+setflow X 0.500000
+setflow Y 0.500000
+open V3
+open V4
+wait 5.000000
+close V3
+close V4
+
+% Symmetic switch of V2,V5 to 1.0 psi for 15.0 mins
+setflow X 0.500000
+setflow Y 0.500000
+open V2
+open V5
+wait 15.000000
+close V2
+close V5
+
+% Symmetic switch of V3,V4 to 1.0 psi for 10.0 mins
+setflow X 0.500000
+setflow Y 0.500000
+open V3
+open V4
+wait 10.000000
+close V3
+close V4
+
+% Symmetic switch of V2,V5 to 1.0 psi for 30.0 mins
+setflow X 0.500000
+setflow Y 0.500000
+open V2
+open V5
+wait 30.000000
+close V2
+close V5
+
+% Symmetic switch of V3,V4 to 1.0 psi for 20.0 mins
+setflow X 0.500000
+setflow Y 0.500000
+open V3
+open V4
+wait 20.000000
+close V3
+close V4
+
+% Symmetic switch of V2,V5 to 1.0 psi for 60.0 mins
+setflow X 0.500000
+setflow Y 0.500000
+open V2
+open V5
+wait 60.000000
+close V2
+close V5
+
+% Symmetic switch of V3,V4 to 1.0 psi for 30.0 mins
+setflow X 0.500000
+setflow Y 0.500000
+open V3
+open V4
+wait 30.000000
+close V3
+close V4
+
+% Symmetic switch of V2,V5 to 1.0 psi for 90.0 mins
+setflow X 0.500000
+setflow Y 0.500000
+open V2
+open V5
+wait 90.000000
+close V2
+close V5
+
+% Symmetic switch of V3,V4 to 1.0 psi for 40.0 mins
+setflow X 0.500000
+setflow Y 0.500000
+open V3
+open V4
+wait 40.000000
+close V3
+close V4
+
+% Symmetic switch of V2,V5 to 1.0 psi for 120.0 mins
+setflow X 0.500000
+setflow Y 0.500000
+open V2
+open V5
+wait 120.000000
+close V2
+close V5
+
+% Symmetic switch of V3,V4 to 1.0 psi for 50.0 mins
+setflow X 0.500000
+setflow Y 0.500000
+open V3
+open V4
+wait 50.000000
+close V3
+close V4
+
+% Symmetic switch of V2,V5 to 1.0 psi for 150.0 mins
+setflow X 0.500000
+setflow Y 0.500000
+open V2
+open V5
+wait 150.000000
+close V2
+close V5
+
+% Symmetic switch of V3,V4 to 1.0 psi for 60.0 mins
+setflow X 0.500000
+setflow Y 0.500000
+open V3
+open V4
+wait 60.000000
+close V3
+close V4
+
+% Symmetic switch of V2,V5 to 1.0 psi for 180.0 mins
+setflow X 0.500000
+setflow Y 0.500000
+open V2
+open V5
+wait 180.000000
+close V2
+close V5
+
+% Symmetic switch of V3,V4 to 1.0 psi for 120.0 mins
+setflow X 0.500000
+setflow Y 0.500000
+open V3
+open V4
+wait 120.000000
+close V3
+close V4
+
+% Symmetic switch of V2,V5 to 1.0 psi for 240.0 mins
+setflow X 0.500000
+setflow Y 0.500000
+open V2
+open V5
+wait 240.000000
+close V2
+close V5
+
+% Symmetic switch of V3,V4 to 5.0 psi for 1.0 mins
+setflow X 2.500000
+setflow Y 2.500000
+open V3
+open V4
+wait 1.000000
+close V3
+close V4
+
+% Symmetic switch of V3,V4 to 1.0 psi for 5.0 mins
+setflow X 0.500000
+setflow Y 0.500000
+open V3
+open V4
+wait 5.000000
+close V3
+close V4
+
+% Symmetic switch of V2,V5 to 5.0 psi for 1.0 mins
+setflow X 2.500000
+setflow Y 2.500000
+open V2
+open V5
+wait 1.000000
+close V2
+close V5
+
+% Symmetic switch of V2,V5 to 1.0 psi for 15.0 mins
+setflow X 0.500000
+setflow Y 0.500000
+open V2
+open V5
+wait 15.000000
+close V2
+close V5
+
+% Symmetic switch of V3,V4 to 5.0 psi for 1.0 mins
+setflow X 2.500000
+setflow Y 2.500000
+open V3
+open V4
+wait 1.000000
+close V3
+close V4
+
+% Symmetic switch of V3,V4 to 1.0 psi for 10.0 mins
+setflow X 0.500000
+setflow Y 0.500000
+open V3
+open V4
+wait 10.000000
+close V3
+close V4
+
+% Symmetic switch of V2,V5 to 5.0 psi for 1.0 mins
+setflow X 2.500000
+setflow Y 2.500000
+open V2
+open V5
+wait 1.000000
+close V2
+close V5
+
+% Symmetic switch of V2,V5 to 1.0 psi for 30.0 mins
+setflow X 0.500000
+setflow Y 0.500000
+open V2
+open V5
+wait 30.000000
+close V2
+close V5
+
+% Symmetic switch of V3,V4 to 5.0 psi for 1.0 mins
+setflow X 2.500000
+setflow Y 2.500000
+open V3
+open V4
+wait 1.000000
+close V3
+close V4
+
+% Symmetic switch of V3,V4 to 1.0 psi for 20.0 mins
+setflow X 0.500000
+setflow Y 0.500000
+open V3
+open V4
+wait 20.000000
+close V3
+close V4
+
+% Symmetic switch of V2,V5 to 5.0 psi for 1.0 mins
+setflow X 2.500000
+setflow Y 2.500000
+open V2
+open V5
+wait 1.000000
+close V2
+close V5
+
+% Symmetic switch of V2,V5 to 1.0 psi for 60.0 mins
+setflow X 0.500000
+setflow Y 0.500000
+open V2
+open V5
+wait 60.000000
+close V2
+close V5
+
+% Symmetic switch of V3,V4 to 5.0 psi for 1.0 mins
+setflow X 2.500000
+setflow Y 2.500000
+open V3
+open V4
+wait 1.000000
+close V3
+close V4
+
+% Symmetic switch of V3,V4 to 1.0 psi for 30.0 mins
+setflow X 0.500000
+setflow Y 0.500000
+open V3
+open V4
+wait 30.000000
+close V3
+close V4
+
+% Symmetic switch of V2,V5 to 5.0 psi for 1.0 mins
+setflow X 2.500000
+setflow Y 2.500000
+open V2
+open V5
+wait 1.000000
+close V2
+close V5
+
+% Symmetic switch of V2,V5 to 1.0 psi for 90.0 mins
+setflow X 0.500000
+setflow Y 0.500000
+open V2
+open V5
+wait 90.000000
+close V2
+close V5
+
+% Symmetic switch of V3,V4 to 5.0 psi for 1.0 mins
+setflow X 2.500000
+setflow Y 2.500000
+open V3
+open V4
+wait 1.000000
+close V3
+close V4
+
+% Symmetic switch of V3,V4 to 1.0 psi for 40.0 mins
+setflow X 0.500000
+setflow Y 0.500000
+open V3
+open V4
+wait 40.000000
+close V3
+close V4
+
+% Symmetic switch of V2,V5 to 5.0 psi for 1.0 mins
+setflow X 2.500000
+setflow Y 2.500000
+open V2
+open V5
+wait 1.000000
+close V2
+close V5
+
+% Symmetic switch of V2,V5 to 1.0 psi for 120.0 mins
+setflow X 0.500000
+setflow Y 0.500000
+open V2
+open V5
+wait 120.000000
+close V2
+close V5
+
+% Symmetic switch of V3,V4 to 5.0 psi for 1.0 mins
+setflow X 2.500000
+setflow Y 2.500000
+open V3
+open V4
+wait 1.000000
+close V3
+close V4
+
+% Symmetic switch of V3,V4 to 1.0 psi for 50.0 mins
+setflow X 0.500000
+setflow Y 0.500000
+open V3
+open V4
+wait 50.000000
+close V3
+close V4
+
+% Symmetic switch of V2,V5 to 5.0 psi for 1.0 mins
+setflow X 2.500000
+setflow Y 2.500000
+open V2
+open V5
+wait 1.000000
+close V2
+close V5
+
+% Symmetic switch of V2,V5 to 1.0 psi for 150.0 mins
+setflow X 0.500000
+setflow Y 0.500000
+open V2
+open V5
+wait 150.000000
+close V2
+close V5
+
+% Symmetic switch of V3,V4 to 5.0 psi for 1.0 mins
+setflow X 2.500000
+setflow Y 2.500000
+open V3
+open V4
+wait 1.000000
+close V3
+close V4
+
+% Symmetic switch of V3,V4 to 1.0 psi for 60.0 mins
+setflow X 0.500000
+setflow Y 0.500000
+open V3
+open V4
+wait 60.000000
+close V3
+close V4
+
+% Symmetic switch of V2,V5 to 5.0 psi for 1.0 mins
+setflow X 2.500000
+setflow Y 2.500000
+open V2
+open V5
+wait 1.000000
+close V2
+close V5
+
+% Symmetic switch of V2,V5 to 1.0 psi for 180.0 mins
+setflow X 0.500000
+setflow Y 0.500000
+open V2
+open V5
+wait 180.000000
+close V2
+close V5
+
+% Symmetic switch of V3,V4 to 5.0 psi for 1.0 mins
+setflow X 2.500000
+setflow Y 2.500000
+open V3
+open V4
+wait 1.000000
+close V3
+close V4
+
+% Symmetic switch of V3,V4 to 1.0 psi for 120.0 mins
+setflow X 0.500000
+setflow Y 0.500000
+open V3
+open V4
+wait 120.000000
+close V3
+close V4
+
+% Symmetic switch of V2,V5 to 5.0 psi for 1.0 mins
+setflow X 2.500000
+setflow Y 2.500000
+open V2
+open V5
+wait 1.000000
+close V2
+close V5
+
+% Symmetic switch of V2,V5 to 1.0 psi for 240.0 mins
+setflow X 0.500000
+setflow Y 0.500000
+open V2
+open V5
+wait 240.000000
+close V2
+close V5
+
+% END PROTOCOL: shutting off all valves and reseting regulators 
+end
